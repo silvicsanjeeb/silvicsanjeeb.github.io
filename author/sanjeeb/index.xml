@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sanjeeb Bhattarai</title>
+    <link>/author/sanjeeb/</link>
+      <atom:link href="/author/sanjeeb/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sanjeeb Bhattarai</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2020</copyright>
+    <image>
+      <url>/img/social.png</url>
+      <title>Sanjeeb Bhattarai</title>
+      <link>/author/sanjeeb/</link>
+    </image>
+    
+  </channel>
+</rss>

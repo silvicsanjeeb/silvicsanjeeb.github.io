@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REDD | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/tag/redd/</link>
+      <atom:link href="https://sanjeeb.name.np/tag/redd/index.xml" rel="self" type="application/rss+xml" />
+    <description>REDD</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Thu, 01 Dec 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>REDD</title>
+      <link>https://sanjeeb.name.np/tag/redd/</link>
+    </image>
+    
+    <item>
+      <title>Climate Change Adaptation and Mitigation through Community Based Sustainable Management of Forests in Nepal</title>
+      <link>https://sanjeeb.name.np/publications/cc-sfm/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/publications/cc-sfm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guidelines for Measuring Carbon Stocks in Community-Managed Forests</title>
+      <link>https://sanjeeb.name.np/publications/redd/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/publications/redd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

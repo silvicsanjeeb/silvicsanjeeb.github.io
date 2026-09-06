@@ -1,0 +1,18 @@
+{
+  "name": "Sanjeeb Bhattarai",
+  "short_name": "Sanjeeb Bhattarai",
+  "lang": "en-us",
+  "theme_color": "black",
+  "background_color": "black",
+  "icons": [{
+    "src": "/images/icon_hu8a2dca17e1eca788df8f114259443676_183533_192x192_fill_lanczos_center_2.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/images/icon_hu8a2dca17e1eca788df8f114259443676_183533_512x512_fill_lanczos_center_2.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}

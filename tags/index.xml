@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/tags/</link>
+      <atom:link href="https://sanjeeb.name.np/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Tags</title>
+      <link>https://sanjeeb.name.np/tags/</link>
+    </image>
+    
+  </channel>
+</rss>

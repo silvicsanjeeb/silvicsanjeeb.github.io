@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bruno Rapidel | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/author/bruno-rapidel/</link>
+      <atom:link href="https://sanjeeb.name.np/author/bruno-rapidel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bruno Rapidel</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Bruno Rapidel</title>
+      <link>https://sanjeeb.name.np/author/bruno-rapidel/</link>
+    </image>
+    
+    <item>
+      <title>Combining Farm Typology and Yield Gap Analysis to Identify Yield Limiting Factors</title>
+      <link>https://sanjeeb.name.np/publications/agee/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/publications/agee/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interaction between Household and Field in Agroforestry Ecosystem Services</title>
+      <link>https://sanjeeb.name.np/talks/esp/</link>
+      <pubDate>Mon, 08 Sep 2014 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/esp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Site Factors, Shade Trees and Coffee Plant Characteristics in Agroforestry</title>
+      <link>https://sanjeeb.name.np/talks/wca/</link>
+      <pubDate>Mon, 10 Feb 2014 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/wca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Llano Bonito Experiment, San Pablo de León Cortés, Tarrazú, Costa Rica.</title>
+      <link>https://sanjeeb.name.np/talks/catie/</link>
+      <pubDate>Mon, 30 Sep 2013 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/catie/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

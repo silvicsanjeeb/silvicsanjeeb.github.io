@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/talks/</link>
+      <atom:link href="https://sanjeeb.name.np/talks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Talks</title>
+      <link>https://sanjeeb.name.np/talks/</link>
+    </image>
+    
+    <item>
+      <title>Ecological factors shaping agroforestry practices among smallholder farmers in Gorkha district, Nepal.</title>
+      <link>https://sanjeeb.name.np/talks/gorkha-agroforestry/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/gorkha-agroforestry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Factors Influencing Tree Use among Small Farmers of Gorkha District, Nepal - Livelihood Perspective.</title>
+      <link>https://sanjeeb.name.np/talks/multidisciplinary/</link>
+      <pubDate>Thu, 03 Oct 2024 14:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/multidisciplinary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Information Technology to Develop Forest Information Management System for Nepal.</title>
+      <link>https://sanjeeb.name.np/talks/7th-national-cf-workshop-nepal/</link>
+      <pubDate>Sun, 12 Jun 2022 14:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/7th-national-cf-workshop-nepal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local and Landscape Drivers of Crop Injury</title>
+      <link>https://sanjeeb.name.np/talks/sa-afc/</link>
+      <pubDate>Tue, 02 Jul 2019 14:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/sa-afc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interaction between Household and Field in Agroforestry Ecosystem Services</title>
+      <link>https://sanjeeb.name.np/talks/esp/</link>
+      <pubDate>Mon, 08 Sep 2014 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/esp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Site Factors, Shade Trees and Coffee Plant Characteristics in Agroforestry</title>
+      <link>https://sanjeeb.name.np/talks/wca/</link>
+      <pubDate>Mon, 10 Feb 2014 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/wca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Llano Bonito Experiment, San Pablo de León Cortés, Tarrazú, Costa Rica.</title>
+      <link>https://sanjeeb.name.np/talks/catie/</link>
+      <pubDate>Mon, 30 Sep 2013 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/catie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The role of forest products with increasing urbanisation.</title>
+      <link>https://sanjeeb.name.np/talks/forepeopinter/</link>
+      <pubDate>Thu, 10 Jun 2010 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/forepeopinter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collection of Wild Edible Fungi in Nepal</title>
+      <link>https://sanjeeb.name.np/talks/imc/</link>
+      <pubDate>Mon, 21 Aug 2006 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/imc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

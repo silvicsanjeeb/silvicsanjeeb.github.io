@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coffea Arabica | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/tag/coffea-arabica/</link>
+      <atom:link href="https://sanjeeb.name.np/tag/coffea-arabica/index.xml" rel="self" type="application/rss+xml" />
+    <description>Coffea Arabica</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Coffea Arabica</title>
+      <link>https://sanjeeb.name.np/tag/coffea-arabica/</link>
+    </image>
+    
+    <item>
+      <title>Combining Farm Typology and Yield Gap Analysis to Identify Yield Limiting Factors</title>
+      <link>https://sanjeeb.name.np/publications/agee/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/publications/agee/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coffee-Agroforestry</title>
+      <link>https://sanjeeb.name.np/projects/coffee-agroforestry/</link>
+      <pubDate>Sun, 27 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/projects/coffee-agroforestry/</guid>
+      <description>&lt;p&gt;Exploring Multi-functional Alternative Landscape Designs for Intensive Coffee Agroforestry Systems in Costa Rica.
+Mulidisciplinary Project between Wageningen University, the Netherlands; Montpellier SupAgro, France and
+Tropical Agricultural Research and Higher Education Center (CATIE), Costa Rica.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

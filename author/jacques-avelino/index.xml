@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jacques Avelino | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/author/jacques-avelino/</link>
+      <atom:link href="https://sanjeeb.name.np/author/jacques-avelino/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jacques Avelino</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Mon, 08 Sep 2014 08:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Jacques Avelino</title>
+      <link>https://sanjeeb.name.np/author/jacques-avelino/</link>
+    </image>
+    
+    <item>
+      <title>Interaction between Household and Field in Agroforestry Ecosystem Services</title>
+      <link>https://sanjeeb.name.np/talks/esp/</link>
+      <pubDate>Mon, 08 Sep 2014 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/esp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

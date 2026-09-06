@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henrik Meilby | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/author/henrik-meilby/</link>
+      <atom:link href="https://sanjeeb.name.np/author/henrik-meilby/index.xml" rel="self" type="application/rss+xml" />
+    <description>Henrik Meilby</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Fri, 01 Apr 2005 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Henrik Meilby</title>
+      <link>https://sanjeeb.name.np/author/henrik-meilby/</link>
+    </image>
+    
+    <item>
+      <title>A statistical evaluation of community forest inventory data- examples from six Schima-Castanopsis forests</title>
+      <link>https://sanjeeb.name.np/publications/schima-castanopsis/</link>
+      <pubDate>Fri, 01 Apr 2005 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/publications/schima-castanopsis/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

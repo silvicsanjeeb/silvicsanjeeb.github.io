@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anish KC | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/author/anish-kc/</link>
+      <atom:link href="https://sanjeeb.name.np/author/anish-kc/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anish KC</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Anish KC</title>
+      <link>https://sanjeeb.name.np/author/anish-kc/</link>
+    </image>
+    
+    <item>
+      <title>A comparison of Landsat-8 and Sentinel-2 spectral indices for estimating aboveground forest carbon in a community forest</title>
+      <link>https://sanjeeb.name.np/publications/sentoinel_landsat-8/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/publications/sentoinel_landsat-8/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

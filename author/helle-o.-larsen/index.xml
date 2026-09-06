@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Helle O. Larsen | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/author/helle-o.-larsen/</link>
+      <atom:link href="https://sanjeeb.name.np/author/helle-o.-larsen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Helle O. Larsen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Mon, 21 Aug 2006 08:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Helle O. Larsen</title>
+      <link>https://sanjeeb.name.np/author/helle-o.-larsen/</link>
+    </image>
+    
+    <item>
+      <title>Collection of Wild Edible Fungi in Nepal</title>
+      <link>https://sanjeeb.name.np/talks/imc/</link>
+      <pubDate>Mon, 21 Aug 2006 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/imc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

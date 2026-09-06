@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mushrooms | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/tag/mushrooms/</link>
+      <atom:link href="https://sanjeeb.name.np/tag/mushrooms/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mushrooms</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Tue, 29 Apr 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Mushrooms</title>
+      <link>https://sanjeeb.name.np/tag/mushrooms/</link>
+    </image>
+    
+    <item>
+      <title>Collection and Use of Wild Edible Fungi in Nepal</title>
+      <link>https://sanjeeb.name.np/publications/econbot/</link>
+      <pubDate>Tue, 29 Apr 2008 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/publications/econbot/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collection of Wild Edible Fungi in Nepal</title>
+      <link>https://sanjeeb.name.np/talks/imc/</link>
+      <pubDate>Mon, 21 Aug 2006 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/imc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

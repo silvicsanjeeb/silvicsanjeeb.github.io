@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICRAF | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/tag/icraf/</link>
+      <atom:link href="https://sanjeeb.name.np/tag/icraf/index.xml" rel="self" type="application/rss+xml" />
+    <description>ICRAF</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Sun, 27 Sep 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>ICRAF</title>
+      <link>https://sanjeeb.name.np/tag/icraf/</link>
+    </image>
+    
+    <item>
+      <title>MSc-Agroforestry</title>
+      <link>https://sanjeeb.name.np/projects/msc-agroforestry/</link>
+      <pubDate>Sun, 27 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/projects/msc-agroforestry/</guid>
+      <description>&lt;p&gt;Spatially Explicit Assessment of Trade-offs and Synergies amongst Key Ecosystem Services in
+Sasumua Watershed, Kenya. MSc Dissertation Project between School of Environment,
+Natural Resources and Geography (‎SENRGy), Bangor University, UK and World Agroforestry Centre (ICRAF), Kenya.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

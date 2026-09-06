@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas Yatich | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/author/thomas-yatich/</link>
+      <atom:link href="https://sanjeeb.name.np/author/thomas-yatich/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thomas Yatich</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Fri, 01 Jul 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Thomas Yatich</title>
+      <link>https://sanjeeb.name.np/author/thomas-yatich/</link>
+    </image>
+    
+    <item>
+      <title>Supporting Multifunctionality through Realistic, Conditional and Voluntary Actions</title>
+      <link>https://sanjeeb.name.np/publications/multifunctess/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/publications/multifunctess/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

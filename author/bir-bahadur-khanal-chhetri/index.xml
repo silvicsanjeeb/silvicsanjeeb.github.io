@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bir Bahadur Khanal Chhetri | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/author/bir-bahadur-khanal-chhetri/</link>
+      <atom:link href="https://sanjeeb.name.np/author/bir-bahadur-khanal-chhetri/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bir Bahadur Khanal Chhetri</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Thu, 10 Jun 2010 08:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Bir Bahadur Khanal Chhetri</title>
+      <link>https://sanjeeb.name.np/author/bir-bahadur-khanal-chhetri/</link>
+    </image>
+    
+    <item>
+      <title>The role of forest products with increasing urbanisation.</title>
+      <link>https://sanjeeb.name.np/talks/forepeopinter/</link>
+      <pubDate>Thu, 10 Jun 2010 08:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/talks/forepeopinter/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

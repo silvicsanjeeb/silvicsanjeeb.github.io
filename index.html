@@ -1,0 +1,5565 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Source Themes Academic 4.8.0">
+  
+    
+  
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+  
+    <meta name="author" content="Sanjeeb Bhattarai">
+  
+    
+    
+    
+      
+    
+    <meta name="description" content="I&#39;m an assistant Professor at Institute of Forestry (IOF), Tribhuvan University (TU), Hetauda, passionate about data science and social-ecological systems.">
+  
+    
+    <link rel="alternate" hreflang="en-us" href="https://sanjeeb.name.np/">
+  
+    
+
+
+    
+    
+    
+    <meta name="theme-color" content="black">
+    
+  
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+  
+    
+    
+    
+    
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  
+      
+      
+      
+        
+      
+      
+        
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github-gist.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github-gist.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+  
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+      
+  
+      
+  
+      
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+      
+        
+  
+        
+        
+  
+        
+          <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+        
+      
+        
+  
+        
+        
+  
+        
+      
+  
+    
+  
+    
+    
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,500,600,700,800,900%7CLato:400,500,600,700,800,900%7CRoboto+Mono:400,500,600,700,800,900%7CKhula:400,500,600,700%7CInter:400,500,600,700,800,900&display=swap">
+    
+  
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.css">
+  
+    
+
+
+
+
+    
+
+  
+    
+    
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    
+  
+    
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Sanjeeb Bhattarai">
+    
+  
+    <link rel="manifest" href="/index.webmanifest">
+    <link rel="icon" type="image/png" href="/images/icon_hu8a2dca17e1eca788df8f114259443676_183533_32x32_fill_lanczos_center_3.png">
+    <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu8a2dca17e1eca788df8f114259443676_183533_192x192_fill_lanczos_center_3.png">
+  
+    <link rel="canonical" href="https://sanjeeb.name.np/">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    <meta property="twitter:card" content="summary_large_image">
+    
+    <meta property="twitter:site" content="@ecosanjeeb">
+    <meta property="twitter:creator" content="@ecosanjeeb">
+    
+    <meta property="og:site_name" content="Sanjeeb Bhattarai">
+    <meta property="og:url" content="https://sanjeeb.name.np/">
+    <meta property="og:title" content="Sanjeeb Bhattarai">
+    <meta property="og:description" content="I&#39;m an assistant Professor at Institute of Forestry (IOF), Tribhuvan University (TU), Hetauda, passionate about data science and social-ecological systems."><meta property="og:image" content="https://sanjeeb.name.np/img/social.png">
+    <meta property="twitter:image" content="https://sanjeeb.name.np/img/social.png"><meta property="og:locale" content="en-us">
+    
+      <meta property="og:updated_time" content="2025-12-05T00:00:00&#43;00:00">
+    
+  
+    
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://sanjeeb.name.np/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://sanjeeb.name.np/"
+}
+</script>
+
+
+  
+
+  
+    
+
+  
+    
+
+
+
+
+  
+    
+  
+    <title>Sanjeeb Bhattarai</title>
+  
+  </head>
+  
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Sanjeeb Bhattarai</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Sanjeeb Bhattarai</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#skills" data-target="#skills"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience" data-target="#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#accomplishments" data-target="#accomplishments"><span>Accomplishments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://sbhattarai.com.np/" target="_blank" rel="noopener"><span>Documentation</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   " style="background-color: white;" >
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="container centered">
+    <div id="profile">
+
+
+
+      <div class="portrait-title">
+        <h1><span class = 'black-bg-text'>
+          Namaste <i class="fa fa-praying-hands"></i> I'm Sanjeeb.
+          </span>
+          </h1>
+        
+        <div class="intro-custom">
+          <h2>
+            <span class = 'black-bg-text'>
+            Get to know me 
+              <a class="icon-scroll" 
+              style = "text-decoration: none;" 
+              href = "/#skills" 
+              data-target = "#skills">
+                  <span class="mouse">
+                    <div class="mouse-icon">
+                      <span class="mouse-wheel">
+                      </span>
+                  </div>
+                </span>
+              </a>
+            </span>
+          </h2>
+        </div>
+        
+          <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=0smnxLUAAAAJ" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/ecosanjeeb/" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://orcid.org/my-orcid?orcid=0000-0001-6105-406X" target="_blank" rel="noopener">
+            <i class="fab fa-orcid big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.researchgate.net/profile/Sanjeeb-Bhattarai" target="_blank" rel="noopener">
+            <i class="fab fa-researchgate big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/#contact" >
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="skills" class="home-section wg-featurette   "  >
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading", align="left">
+    <h1>About</h1>
+    
+  </div>
+  
+
+  
+  <div class="col-md-12">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+<p>/* Create two unequal columns that floats next to each other */
+.column {
+float: left;
+padding: 10px;
+}</p>
+<p>.left {
+width: 48%;
+}</p>
+<p>.right {
+width: 48%;
+}</p>
+<p>/* Clear floats after the columns */
+.row:after {
+content: &ldquo;&rdquo;;
+display: table;
+clear: both;
+}
+</style></p>
+</head>
+<body>
+<h2></h2>
+<div class="row">
+  <div class="column left">
+    <h2 align="left">Academic qualifications:
+</h2>
+	<p align="left"><i class="fas fa-graduation-cap"></i> <strong> MSc Sustainable Tropical Forestry (SUTROFOR)</strong>: Double degrees offered jointly by Bangor University, UK and Copenhagen University, Denmark (EU's Erasmus Mundus Scholarship)</p>
+	<p align="left"><i class="fas fa-graduation-cap"></i> <strong> PG-Diploma</strong>: Remote Sensing and GIS (UN CSSTEAP Scholarship), Indian Institute of Remote Sensing (IIRS), Dehradun, India</p>
+	<p align="left"><i class="fas fa-graduation-cap"></i> <strong> BSc Forestry</strong>: Institute of Forstry (IoF), Pokhara, Tribhuvan University (TU), Nepal</p>
+	  <p align="left"><i class="fas fa-graduation-cap"></i> <strong> Provisional Certificate Level (PCL) Forestry</strong>: IoF, Hetauda
+</p>
+  </div>
+  <div class="column right">
+    <h2 align="left">Interests:</h2>
+    <p align="left"><i class="fas fa-search"></i> Design and implementation of integrated research projects</p>
+	  <p align="left"><i class="fas fa-database"></i> Development of research tools, database management, data analysis and visualization</p>
+	  <p align="left"><i class="fas fa-hiking"></i> Ecosystem Services</p>
+	  <p align="left"><i class="fas fa-seedling"></i> Agroforestry</p>
+	  <p align="left"><i class="fas fa-mountain"></i> Landscape Ecology</p>
+	  <p align="left"><i class="fas fa-tree"></i> Sustainable Forest Management</p>
+	  <p align="left"><i class="fas fa-handshake"></i> Participatory Natural Resources Management</p>
+	  <p align="left"><i class="fas fa-globe"></i> Social-ecological Systems</p>
+   <h2 align="left">Skills:</h2>   
+  </div>
+</div>
+</body>
+</html>
+  </div>
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-tasks"></i></div>
+    
+    <h3>Project management &amp; Facilitation</h3>
+    <p>80%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-map-marked-alt"></i></div>
+    
+    <h3>GIS &amp; Spatial analysis</h3>
+    <p>85%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fab fa-r-project"></i></div>
+    
+    <h3>Data science using R</h3>
+    <p>90%</p>
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="experience" class="home-section wg-experience   " style="background-image: linear-gradient(white, #ECCCC2);" >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title mt-0 mb-1">Assistant Professor</h4>
+            <h4 class="card-title exp-company text-muted my-0">Institute of Forestry (IOF), Tibhuvan University (TU)</h4>
+            <div class="text-muted exp-meta">
+              Mar 2021 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Hetauda</span>
+              
+            </div>
+            <div class="card-text"><p><p>Responsibilities include:</p>
+<ul>
+<li>Teaching</li>
+<li>Research</li>
+<li>Supervision</li>
+<li>Publication</li>
+</ul></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title mt-0 mb-1">Assistant Professor</h4>
+            <h4 class="card-title exp-company text-muted my-0">Kathmandu Forestry College (KAFCOL)</h4>
+            <div class="text-muted exp-meta">
+              Oct 2017 –
+              
+                Mar 2021
+              
+              
+                <span class="middot-divider"></span>
+                <span>Kathmandu</span>
+              
+            </div>
+            <div class="card-text"><p><p>Responsibilities include:</p>
+<ul>
+<li>Teaching</li>
+<li>Research</li>
+<li>Supervision</li>
+<li>Publication</li>
+</ul></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title mt-0 mb-1">Forestry and Environment Expert</h4>
+            <h4 class="card-title exp-company text-muted my-0">Independantly and intermitently</h4>
+            <div class="text-muted exp-meta">
+              Sep 2005 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Nepal</span>
+              
+            </div>
+            <div class="card-text"><p><p>Projects include:</p>
+<ul>
+<li>Team leader <em>Expanded Long-Term Strategy (LTS) for Emissions from Forestry Sector of Nepal</em> for Oxford Policy Management Limited (OPML), Nepal.</li>
+<li>Contributed to <em>Feasibility of Wood-based Infrastructure in Earthquake-prone Urban Himalaya: Assessing the Current Situation, Opportunities, and Challenges, and Developing a Long-term Strategy</em> commissioned by Center for International Forestry Research (CIFOR), Bogor, Indonesia.</li>
+<li>Study team leader <em>Products, Demand, Supply, Export and Import of Forest Produce</em> by Ministry of Industry, Commerce and Supplies (MoICS), Government of Nepal.</li>
+<li>Facilitation of several post/under-graduate students and professionals in forestry related courses, database and GIS applications</li>
+<li>Contribution to forestry and biological aspects of Environment Impact Assessment (EIA) and Initial Environmental Examination(IEE) for different infrastructure development projects</li>
+</ul></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title mt-0 mb-1">Various</h4>
+            <h4 class="card-title exp-company text-muted my-0">Various</h4>
+            <div class="text-muted exp-meta">
+              Feb 1998 –
+              
+                Jan 2016
+              
+              
+                <span class="middot-divider"></span>
+                <span>Nepal, Costa Rica, Denmark, the Netherlands, Kenya, and Thailand</span>
+              
+            </div>
+            <div class="card-text"><p>University, Non-Government Organisations (NGOs) Research/Development, Government Public Services.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="accomplishments" class="home-section wg-accomplishments   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Accomplish­ments</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+      <div class="card experience course">
+        <div class="card-body"><a href="https://www.freecodecamp.org/learn/responsive-web-design-v9/" target="_blank" rel="noopener"><h4 class="card-title exp-title my-0">Responsive Web Design Certification</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener">freeCodeCamp</a><span class="middot-divider"></span>
+
+            Sep 2026
+            
+          </div>
+
+          
+
+          
+            <a class="card-link" href="https://www.freecodecamp.org/certification/fccdd13553c-f6e8-43ba-aa42-d42fa67c1342/responsive-web-design-v9" target="_blank" rel="noopener">
+              See certificate
+            </a>
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><a href="https://www.itecgoi.in/uploadfolder/1752737158114_Course_Content_EO_Applications_in_Foorestry.pdf" target="_blank" rel="noopener"><h4 class="card-title exp-title my-0">Indian Technical &amp; Economic Cooperation (ITEC), Ministry of External Affairs (MEA), Govt. of India Sponsored Course on <em>Earth Observation Applications in Forestry</em></h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.iirs.gov.in/" target="_blank" rel="noopener">Indian Institute of Remote Sensing, Indian Space Research Organisation</a><span class="middot-divider"></span>
+
+            Feb 2026
+            
+          </div>
+
+          
+            <div class="card-text">Dehradun, India</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Recent Advances in Space Applications for Forest Monitoring and Assessment</h4><div class="card-subtitle my-0 article-metadata">Centre for Space Science and Technology Education in Asia and the Pacific (CSSTEAP) (<em>Affiliated to the United Nations</em>)<span class="middot-divider"></span>
+
+            Apr 2021
+            
+          </div>
+
+          
+            <div class="card-text">Online</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Online Special Seminar on Forest Resources and Mathematical Modeling with R</h4><div class="card-subtitle my-0 article-metadata">Institute of Statistical Mathematics, Japan, on behalf of Asian Agri-Forest Resource Management Research Consortium (AgFReM)<span class="middot-divider"></span>
+
+            Mar 2021
+            
+          </div>
+
+          
+            <div class="card-text">Online</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Pest Risk Analysis (PRA) (Project: FAO/TCP/NEP/3702)</h4><div class="card-subtitle my-0 article-metadata"><a href="https://frtc.gov.np" target="_blank" rel="noopener">Forest Research and Training Center (FRTC), Government of Nepal</a><span class="middot-divider"></span>
+
+            Nov 2020
+            
+          </div>
+
+          
+            <div class="card-text">Kathmandu.</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Reproducible Templates for Analysis and Dissemination</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+            Oct 2020
+            
+          </div>
+
+          
+
+          
+            <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/4DJB68PYGYJ5" target="_blank" rel="noopener">
+              See certificate
+            </a>
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Introduction to Relational Database and SQL</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+            Oct 2020
+            
+          </div>
+
+          
+
+          
+            <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/VDP93X7YC9B8" target="_blank" rel="noopener">
+              See certificate
+            </a>
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Coursera Administrator Training</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+            Aug 2020
+            
+          </div>
+
+          
+
+          
+            <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/RFLDUQULSHGH" target="_blank" rel="noopener">
+              See certificate
+            </a>
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Build Data Analysis tools using R and DPLYR</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+            Jul 2020
+            
+          </div>
+
+          
+
+          
+            <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/CJVXVXDQGWZY" target="_blank" rel="noopener">
+              See certificate
+            </a>
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">COVID-19 Contact Tracing</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+            May 2020
+            
+          </div>
+
+          
+
+          
+            <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/BXYM2MZQPAX2" target="_blank" rel="noopener">
+              See certificate
+            </a>
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Techniques in Forest Entomology and Intensive Pest Management (Project: FAO/TCP/NEP/3702)</h4><div class="card-subtitle my-0 article-metadata"><a href="https://frtc.gov.np" target="_blank" rel="noopener">Forest Research and Training Center (FRTC), Government of Nepal</a><span class="middot-divider"></span>
+
+            Dec 2019
+            
+          </div>
+
+          
+            <div class="card-text">Kathmandu.</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Hands-on workshop with Google Earth Engine (GEE): training in accessing and analyzing annual, nation-wide tree cover data</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.eastwestcommunity.org/2018ISMT" target="_blank" rel="noopener">Land Cover Land Use Change (LCLUC) Program of National Aeronautics and Space Administration (NASA), USA</a><span class="middot-divider"></span>
+
+            Dec 2018
+            
+          </div>
+
+          
+            <div class="card-text">Kathmandu.</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Training of Trainers on Silviculture and Forest Management.</h4><div class="card-subtitle my-0 article-metadata">Silviculture Division of Department of Forests, Government of Nepal.<span class="middot-divider"></span>
+
+            May 2018
+            
+            – Jun 2018
+            
+          </div>
+
+          
+            <div class="card-text">Various places in Nepal.</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">An Introduction to TESSA: the Toolkit for Ecosystem Service Site-based Assessment.</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.unep-wcmc.org/" target="_blank" rel="noopener">Birdlife International</a> and 
+<a href="https://www.unep-wcmc.org/" target="_blank" rel="noopener">World Conservation Monitoring Centre, UK</a>.<span class="middot-divider"></span>
+
+            Sep 2014
+            
+          </div>
+
+          
+            <div class="card-text">San Jose, Costa Rica.</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Integrated Valuation of Environmental Services and Tradeoffs (InVest)</h4><div class="card-subtitle my-0 article-metadata"><a href="https://naturalcapitalproject.stanford.edu/" target="_blank" rel="noopener">Natural Capital (NatCap) Project at Stanford University</a> and 
+<a href="https://wwf.panda.org/wwf_offices/usa/" target="_blank" rel="noopener">WWF, US</a>.<span class="middot-divider"></span>
+
+            Sep 2014
+            
+          </div>
+
+          
+            <div class="card-text">San Jose, Costa Rica.</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Model Thinking</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+            Sep 2013
+            
+          </div>
+
+          
+
+          
+            <a class="card-link" href="https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/970778~3296814/pdf" target="_blank" rel="noopener">
+              See certificate
+            </a>
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Linking community monitoring to national MRV for REDD+</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.forestcarbonpartnership.org/" target="_blank" rel="noopener">Forest Carbon Partnership Facility (FCPF) of World Bank</a> and 
+<a href="https://www.ciga.unam.mx/" target="_blank" rel="noopener">Centro de Investigaciones en Geografía Ambiental (UNAM) Mexico</a><span class="middot-divider"></span>
+
+            Sep 2011
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Use of Geo-informatics for Mapping and Modeling Forest Carbon Stocks in Nepal</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.icimod.org/" target="_blank" rel="noopener">International Centre for Integrated Mountain Development (ICIMOD)</a> and 
+<a href="https://www.itc.nl/" target="_blank" rel="noopener">Faculty of Geo-information Science and Earth Observation (ITC), the Netherlands</a>.<span class="middot-divider"></span>
+
+            May 2011
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Hydrological and Carbon Stock Appraisal Tools in the context of Payment for Environmental Services (PES)</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.icimod.org/" target="_blank" rel="noopener">International Centre for Integrated Mountain Development (ICIMOD)</a> and 
+<a href="http://www.worldagroforestry.org/region/SEA" target="_blank" rel="noopener">World Agroforestry Centre (ICRAF), South East Asia</a>.<span class="middot-divider"></span>
+
+            Oct 2009
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Spatially explicit assessment of tradeoffs and synergies amongst key ecosystem services in Sasumua watershed</h4><div class="card-subtitle my-0 article-metadata"><a href="http://www.worldagroforestry.org/" target="_blank" rel="noopener"><a href="http://www.worldagroforestry.org/" target="_blank" rel="noopener">World Agroforestry Center (ICRAF), Nairobi, Kenya</a>.</a><span class="middot-divider"></span>
+
+            Apr 2009
+            
+            – Sep 2009
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Sustainable Tropical Forestry (SUTROFOR) Joint Summer Module</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.catie.ac.cr/en/" target="_blank" rel="noopener">Tropical Agricultural Research and Higher Education Centre (CATIE), Costa Rica</a><span class="middot-divider"></span>
+
+            Jul 2008
+            
+            – Aug 2008
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Youth Encounter for Sustainability (YES)</h4><div class="card-subtitle my-0 article-metadata"><a href="https://ethz.ch/en/the-eth-zurich/sustainability.html/" target="_blank" rel="noopener">ETHsustainability - Center for Sustainability at ETH Zurich, Switzerland</a><span class="middot-divider"></span>
+
+            Jul 2008
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title my-0">Interdisciplinary Land Use and Natural Resource Management Program, University of Copenhagen, Denmark</h4><div class="card-subtitle my-0 article-metadata"><a href="https://sluse.dk/" target="_blank" rel="noopener">Understanding Self-Sufficiency: Socio-economic and Natural Resources Sustainability of a Land Reform Program</a><span class="middot-divider"></span>
+
+            Mar 2008
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="projects" class="home-section wg-portfolio   " style="background-image: linear-gradient(lightgrey, #CBE9F6);" >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Projects</h1>
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+
+
+    
+
+    
+
+      
+
+      
+      
+      
+      
+        
+      
+
+      <span class="d-none default-project-filter">*</span>
+
+      
+      
+      <div class="project-toolbar">
+        <div class="project-filters">
+          <div class="btn-toolbar">
+            <div class="btn-group flex-wrap">
+              
+                
+                
+                
+                  
+                
+                <a href="#!" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+              
+                
+                
+                
+                <a href="#!" data-filter=".js-id-Research" class="btn btn-primary btn-lg">Research</a>
+              
+                
+                
+                
+                <a href="#!" data-filter=".js-id-Agroforestry" class="btn btn-primary btn-lg">Agroforestry</a>
+              
+                
+                
+                
+                <a href="#!" data-filter=".js-id-Conference" class="btn btn-primary btn-lg">Conference</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+
+    <div class="isotope projects-container row js-layout-row ">
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Agroforestry js-id-Research">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/projects/madhesh-inventory-plot-size/" >Madhesh Inventory Plot-size Determination</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Determining Appropriate Plot Size for Forest Resource Inventory and Biodiversity Monitoring in Madhesh Pradesh, Terai, Nepal study carried out on behalf of Forest Research and Training Centre (FRTC), Madhesh Province, Nepal and implemented by Institute of Forestry (IOF), Hetauda Campus (FY 2024/25)
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 28, 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/projects/madhesh-inventory-plot-size/" >
+      <img src="/projects/madhesh-inventory-plot-size/featured_hu48250a0ad947930dcb79de299fd26f8c_57905_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Agroforestry js-id-Research">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/projects/madhesh-af-dss/" >Madhesh AF DSS</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Development of a decision support system (DSS) for the agroforestry (AF) suitability in Madhesh Province. Tool developed for Forest Research and Training Centre(FRTC), Madhesh Province, Nepal (FY 2023/24)
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 27, 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/projects/madhesh-af-dss/" >
+      <img src="/projects/madhesh-af-dss/featured_hu382ba689d0387f5662953fc9eb86a05c_162510_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Field-study js-id-Research">
+  
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="https://globalforestry.eu/" target="_blank" rel="noopener">GLOFOR Field Course 2024</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Erasmus Mundus MSc in Global Forestry (GLOFOR) Field Course (2024) implemented by Institute of Forestry (IOF), Tribhuvan University (GLOFOR associate member), in collaboration with GLOFOR Secretary Copenhagen University, Denmark (Nov 2023-Mar 2024)
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 17, 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="https://globalforestry.eu/" target="_blank" rel="noopener">
+      <img src="/projects/glofor/featured_hufecb9a663f4964850ddee43a30fbecb7_417754_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Field-study js-id-Research">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/projects/koshi-ess/" >Koshi ESs Study</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Assessment of goods and services and employment opportunities provided by forestry sector in Koshi Province, Nepal (May-Aug 2024)
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 27, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/projects/koshi-ess/" >
+      <img src="/projects/koshi-ess/featured_hube0e54cfb102bfce15fcedcc082440c7_123739_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Conference js-id-Agroforestry">
+  
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="https://nafnepal.org.np/index.php/newsevents/explore/54" target="_blank" rel="noopener">Agroforestry-Conference</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Organising Secretary of International Agroforestry Conference 2018.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 27, 2016
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="https://nafnepal.org.np/index.php/newsevents/explore/54" target="_blank" rel="noopener">
+      <img src="/projects/agroforestry-conference/featured_hu7d552cc2d7259383fa5f76c76960c627_380334_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Cooffee js-id-Agroforestry js-id-Research js-id-Coffea-arabica js-id-Field-study">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/projects/coffee-agroforestry/" >Coffee-Agroforestry</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Exploring Multi-functional Alternative Landscape Designs for Intensive Coffee &hellip;
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 27, 2015
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/projects/coffee-agroforestry/" >
+      <img src="/projects/coffee-agroforestry/featured_hu55c2c9e16c898b7b2d7436351fd92b7b_300415_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-MSc js-id-Agroforestry js-id-Ecosystem-Services js-id-Trade-off js-id-Synergies js-id-ICRAF js-id-Kenya js-id-Research">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/projects/msc-agroforestry/" >MSc-Agroforestry</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Spatially Explicit Assessment of Trade-offs and Synergies amongst Key &hellip;
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 27, 2009
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/projects/msc-agroforestry/" >
+      <img src="/projects/msc-agroforestry/featured_hu4ed6a3a2d1b294053514e4c216fbe990_2131407_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-SLUSE js-id-Research js-id-Field-study">
+  
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="https://sluse.dk/project/Thailand_understanding_sufficiency_economy.pdf" target="_blank" rel="noopener">SLUSE</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Understanding Sufficiency Economy.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 27, 2008
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="https://sluse.dk/project/Thailand_understanding_sufficiency_economy.pdf" target="_blank" rel="noopener">
+      <img src="/projects/selfsufficiency/featured_hu0bea753ef8cfd2509ee3e0731b406678_67881_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-talks   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Talks</h1>
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+
+
+    
+
+    
+
+    <div class=" row js-layout-row ">
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talks/gorkha-agroforestry/" >Ecological factors shaping agroforestry practices among smallholder farmers in Gorkha district, Nepal.</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Agroforestry systems, a combination of trees and crops, are centrally linked to the livelihoods of Gorkha people, and they are presented as an alternative to conventional agriculture due to their potential to mitigate climate change without decreasing food production and biodiversity
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 25, 2025
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talks/gorkha-agroforestry/" >
+      <img src="/talks/gorkha-agroforestry/featured_hu62281068521905b6f70a36e9c8438f52_71508_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talks/multidisciplinary/" >Factors Influencing Tree Use among Small Farmers of Gorkha District, Nepal - Livelihood Perspective.</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Factors Influencing Tree Use among Small Farmers of Gorkha District, Nepal - Livelihood Perspective.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 3, 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talks/multidisciplinary/" >
+      <img src="/talks/multidisciplinary/featured_hu62aee5c50e1b1e7870b1e6ac088efaa6_114939_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talks/7th-national-cf-workshop-nepal/" >Leveraging Information Technology to Develop Forest Information Management System for Nepal.</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Leveraging Information Technology to Develop Forest Information Management System for Nepal.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 12, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talks/7th-national-cf-workshop-nepal/" >
+      <img src="/talks/7th-national-cf-workshop-nepal/featured_hub96a79a951554eb5acd4984949dcc5c5_280766_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talks/sa-afc/" >Local and Landscape Drivers of Crop Injury</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Local and landscape drivers of crop injury in highland coffee agroforestry systems.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 2, 2019
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talks/sa-afc/" >
+      <img src="/talks/sa-afc/featured_hu4766a5184a3c20c5a9417b705df67ef9_155316_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Agroforestry js-id-Ecosystem-Services js-id-Costa-Rica js-id-">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talks/esp/" >Interaction between Household and Field in Agroforestry Ecosystem Services</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Interaction between household and field characteristics in generation of ecosystem services from coffee agroecosystem of Llano Bonito, Costa Rica
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Sanjeeb Bhattarai</span>, <span>Clémentine Allinne</span>, <span>Jacques Avelino</span>, <span>Christian Gary</span>, <span>Walter A.H. Rossing</span>, <span>Pablo Tittonell</span>, <span>Bruno Rapidel</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 8, 2014
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talks/esp/" >
+      <img src="/talks/esp/featured_hu1fe2bda95989356c43bb83d645d6e39a_432131_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Agroforestry js-id-Coffee js-id-Shade-tree">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talks/wca/" >Site Factors, Shade Trees and Coffee Plant Characteristics in Agroforestry</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Llano Bonito is a productive coffee-growing watershed within Tarrazú region of Costa Rica
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Sanjeeb Bhattarai</span>, <span>Christian Gary</span>, <span>Walter A.H. Rossing</span>, <span>Pablo Tittonell</span>, <span>Bruno Rapidel</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 10, 2014
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talks/wca/" >
+      <img src="/talks/wca/featured_hu528e21e38d07610f6c15b796f9e5b8ce_699994_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Agroforestry">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talks/catie/" >The Llano Bonito Experiment, San Pablo de León Cortés, Tarrazú, Costa Rica.</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Investigating agricultural practices, environmental services and design of agroforestry systems in Central mountains of Costa Rica
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Bruno Rapidel</span>, <span>Nicole Sibelet</span>, <span>Clémentine Allinne</span>, <span>Isabel Gutiérrez</span>, <span>Louise Meylan</span>, <span>Mario Villatoro</span>, <span>Sanjeeb Bhattarai</span>, <span>Jorge Ortiz</span>, <span>A. Bonilla</span>, <span>J. Castro</span>, <span>J.J. Araya</span>, <span>D. Warren Raffa</span>, <span>Roland Laffourcade</span>, <span>Soazic Dhorne</span>, <span>A. Garcia</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 30, 2013
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talks/catie/" >
+      <img src="/talks/catie/featured_hua99c82535f21ab17faaef86af2e5333d_95655_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Forest-People-Interaction js-id-Urbanisation">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talks/forepeopinter/" >The role of forest products with increasing urbanisation.</a>
+    </h3>
+
+    
+    <div class="article-style">
+      The present study explores the differential roles of forest resources in communities.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Helle Overgard Larsen</span>, <span>Lise Herslund</span>, <span>Bir Bahadur Khanal Chhetri</span>, <span>Lila Puri</span>, <span>Sanjeeb Bhattarai</span>, <span>Narayan Prasad Gautam</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 10, 2010
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talks/forepeopinter/" >
+      <img src="/talks/forepeopinter/featured_hu6702cdb85b679771b168fe72ebe68683_289690_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Ethnicity js-id-Livelihoods js-id-Mushrooms js-id-NTFP">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talks/imc/" >Collection of Wild Edible Fungi in Nepal</a>
+    </h3>
+
+    
+    <div class="article-style">
+      National  forest  and  Community  forest  are  the  most  frequently  visited  places  for  collection  of  wild  fungi.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Morten Christensen</span>, <span>Helle O. Larsen</span>, <span>Sanjeeb Bhattarai</span>, <span>Shiva Devkota</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 21, 2006
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talks/imc/" >
+      <img src="/talks/imc/featured_huec2c86cf3a9a9e3be15935d62ea2fec2_141592_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-publications   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Publications</h1>
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+
+
+    
+
+    
+
+    <div class=" row js-layout-row ">
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/swayambhu-tree-diversity/" >Tree diversity and regeneration patterns along stand-age gradients in the Swayambhu sacred forest</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Sacred or religious forests are one of the most important but difficult to manage forest types due to high human interferences. The …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Santa Kumar Shrestha</span>, <span>Sony Baral</span>, <span>Bishnu Prasad Dhakal</span>, <span>Sanjeeb Bhattarai</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 5, 2025
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/swayambhu-tree-diversity/" >
+      <img src="/publications/swayambhu-tree-diversity/featured_hu2138acea3d4ef16f2e794c84c96ff153_104739_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/af-inspirational/" >Agroforestry- An Inspirational Case of Diversified FarmersIncome and Climate Change Adaptation Strategy in the Mid-hills of Central Nepal</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Agroforestry (AF) plays an important role in food security, climate change mitigation and adaptation, and environmental resources …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Anita Bhattarai</span>, <span>Kabita Pandey</span>, <span>Gayatri Paudel</span>, <span>Sanjeeb Bhattarai</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 5, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/af-inspirational/" >
+      <img src="/publications/af-inspirational/featured_hub75ecc7fed23f0f46bb479e66df3a15d_113167_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/sentoinel_landsat-8/" >A comparison of Landsat-8 and Sentinel-2 spectral indices for estimating aboveground forest carbon in a community forest</a>
+    </h3>
+
+    
+    <div class="article-style">
+      This study aimed to estimate and map the Above Ground Forest Carbon stock in the Salbote Karele Community Forest in Ilam district. The …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Anish KC</span>, <span>Sanjeeb Bhattarai</span>, <span>Pravesh Pandey</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 5, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/sentoinel_landsat-8/" >
+      <img src="/publications/sentoinel_landsat-8/featured_hue2bbb0073cfa65fc8be9c55c237127e6_173372_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Boundary-plantation js-id-Livelihood js-id-Relative-prevalence js-id-Species-composition">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/af-nawalparasi-w/" >Existing Agroforestry Practices and Their Contribution to the Socio-economic Condition of the People of West Nawalparasi, Nepal- A case study</a>
+    </h3>
+
+    
+    <div class="article-style">
+      The modern agroforestry systems have the potential to improve livelihood through the production of food, fodder, and firewood as well as mitigation of the impact of climate change.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Sindhu Pokharel</span>, <span>Sanjeeb Bhattarai</span>, <span>Rabindra Adhikari</span>, <span>Suveksha Jha</span>, <span>Aaradhana Pokhrel</span>, <span>Madhavi Parajuli</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 25, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/af-nawalparasi-w/" >
+      <img src="/publications/af-nawalparasi-w/featured_hub6991f4336aab8be19e01f8068d74ee9_121746_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Agroforestry js-id-Commercial js-id-Fragmentation js-id-Agroforestry-species">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/nepal-af/" >Exploring agroforestry systems and practices in the Terai and hill regions of Nepal</a>
+    </h3>
+
+    
+    <div class="article-style">
+      This paper explores the status of agroforestry systems and practices in the Terai and hill regions of Nepal.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>S. Ulak</span>, <span>B. Lama</span>, <span>D. K. Pradhan</span>, <span>Sanjeeb Bhattarai</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 28, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/nepal-af/" >
+      <img src="/publications/nepal-af/featured_hu8ada7e1662455979bc1c18c6ed1bde96_152786_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/axis-axis/" >Breeding seasonality of Chital (Axis axis) in the Hetauda Valley of Nepal</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Breeding seasonality of Chital (Axis axis) in the Hetauda Valley of Nepal.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Arjun Bhusal</span>, <span>Bijaya Neupane</span>, <span>Sanjeeb Bhattarai</span>, <span>Aashish Kapali</span>, <span>Suraj Bhatta</span>, <span>Santosh Bajagain</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 26, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/axis-axis/" >
+      <img src="/publications/axis-axis/featured_hu3690ed1f9686ae427efd29a290debd54_68100_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Silviculture- js-id-Regeneration-status js-id-Crown-openness js-id-Forest-canopy">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/crown-openness/" >Crown Openness and Regeneration Status in Pine Forest</a>
+    </h3>
+
+    
+    <div class="article-style">
+      This research illustrates the effect of crown openness and regeneration status of pine forest.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Subodh Bhattarai</span>, <span>Sanjeeb Bhattarai</span>, <span>Madan Raj Bhandari</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 8, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/crown-openness/" >
+      <img src="/publications/crown-openness/featured_hu1b0b2ff5e0f11b0537d8768fa686bdd1_173891_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Farm-diversity js-id-Coffee js-id-Coffea-arabica js-id-Yield-limiting-factor js-id-Boundary-line-analysis js-id-Farming-systems js-id-Costa-Rica">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/agee/" >Combining Farm Typology and Yield Gap Analysis to Identify Yield Limiting Factors</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Yield variability in space and time is a wellknown phenomenon in the highland coffee production systems of Costa Rica.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Sanjeeb Bhattarai</span>, <span>Stéphanie Alvarez</span>, <span>Christian Gary</span>, <span>Walter Rossing</span>, <span>Pablo Tittonell</span>, <span>Bruno Rapidel</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 1, 2017
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/agee/" >
+      <img src="/publications/agee/featured_hu8b7a758691702fc4660ebdb09c89f9ac_208326_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-REDD js-id-Forest-Carbon js-id-Community-based-Forestry js-id-Measurement-Guidelines">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/cc-sfm/" >Climate Change Adaptation and Mitigation through Community Based Sustainable Management of Forests in Nepal</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Mountain Forests in a Changing World - Realizing values, addressing challenges.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Bhishma P. Subedi</span>, <span>Sanjeeb Bhattarai</span>, <span>Sudarshan Khanal</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 1, 2011
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/cc-sfm/" >
+      <img src="/publications/cc-sfm/featured_hue619f1fc4d0376b5a4496b0c6cbb31bf_130067_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/district-redd/" >District Level Evaluation of REDD Potential Based on Crown Cover and Carbon Density in Nepal</a>
+    </h3>
+
+    
+    <div class="article-style">
+      District Level Evaluation of REDD Potential Based on Crown Cover and Carbon Density in Nepal (<em>in Nepali</em>).
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Sanjeeb Bhattarai</span>, <span>Eak Rana</span>, <span>Rijan Tamrakar</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 1, 2011
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/district-redd/" >
+      <img src="/publications/district-redd/featured_hu12e92c2888569401e3a6d1ddb66fa10b_111712_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-REDD js-id-Forest-Carbon js-id-Community-based-Forestry js-id-Measurement-Guidelines">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/redd/" >Guidelines for Measuring Carbon Stocks in Community-Managed Forests</a>
+    </h3>
+
+    
+    <div class="article-style">
+      The guidelines describe methods, procedures, and steps for measuring organic carbon stored by forest land use systems.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Bhishma P. Subedi</span>, <span>Shiva S. Pandey</span>, <span>Ajay Pandey</span>, <span>Eak B. Rana</span>, <span>Sanjeeb Bhattarai</span>, <span>Tibendra R. Banskota</span>, <span>Shambhu Charmakar</span>, <span>Rijan Tamrakar</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 1, 2011
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/redd/" >
+      <img src="/publications/redd/featured_hu2d7c37e227bd32789834cb031e510ec1_1268965_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Climate-Change js-id-Adaptation js-id-PES js-id-Multifunctionality js-id-Ecosystem-Services js-id-Measurement-Guidelines">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/multifunctess/" >Supporting Multifunctionality through Realistic, Conditional and Voluntary Actions</a>
+    </h3>
+
+    
+    <div class="article-style">
+      How trees and people can coadapt to climate change reducing vulnerability through multifunctional agroforestry landscapes.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Beria Leimona</span>, <span>Meine Van Noordwijk</span>, <span>Laxman Joshi</span>, <span>Delia Catacutan</span>, <span>Thomas Yatich</span>, <span>Johannes Dietz</span>, <span>Hosea Mwangi</span>, <span>John Mwangi Gathenya</span>, <span>Catherine Muthuri</span>, <span>Fergus Sinclair</span>, <span>Sanjeeb Bhattarai</span>, <span>Leah Onyango Suyanto</span>, <span>Antoine Kalinganire</span>, <span>Qureish Noordin</span>, <span>Jules Bayala</span>, <span>Aster Gebrekirstos</span>, <span>Karen Tscherning</span>, <span>Caroline Duque-Piñon</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 1, 2011
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/multifunctess/" >
+      <img src="/publications/multifunctess/featured_hua45ce646daf673ca6791a0106dc872a9_63411_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Ethnicity js-id-Livelihoods js-id-Mushrooms js-id-NTFP js-id-South-Asia">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/econbot/" >Collection and Use of Wild Edible Fungi in Nepal</a>
+    </h3>
+
+    
+    <div class="article-style">
+      This study investigates the collection of wild edible Nepalese fungi species, and what are the specific characteristics of the collectors and the collection.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Morten Christensen</span>, <span>Sanjeeb Bhattarai</span>, <span>Shiva Devkota</span>, <span>Helle O Larsen</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 29, 2008
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/econbot/" >
+      <img src="/publications/econbot/featured_hub6f5dd8957d0f345f588624191984875_740637_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/acap-wild-mushroom/" >Use of Wild Edible Mushrooms in the Annapurna Conservation Area, Nepal</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Use of Wild Edible Mushrooms in the Annapurna Conservation Area, Nepal.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Morten Christensen</span>, <span>Shiva Devkota</span>, <span>Sanjeeb Bhattarai</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 1, 2008
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/acap-wild-mushroom/" >
+      <img src="/publications/acap-wild-mushroom/featured_huaea6881dbb13926cbaa475a20049fa3c_50203_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-University-Research js-id-Capacity-Building">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/iof-comform/" >Adressing the needs for forestry research and education in Nepal</a>
+    </h3>
+
+    
+    <div class="article-style">
+      IOF ComForM project end of phase I project status and design of phase II
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Helle Overgaard Larsen</span>, <span>Abhoy K. Das</span>, <span>Sanjeeb Bhattarai</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 1, 2007
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/iof-comform/" >
+      <img src="/publications/iof-comform/featured_huda555f626f84e2304823a594a63d0dcc_245583_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item ">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publications/schima-castanopsis/" >A statistical evaluation of community forest inventory data- examples from six Schima-Castanopsis forests</a>
+    </h3>
+
+    
+    <div class="article-style">
+      A statistical evaluation of community forest inventory data- examples from six Schima-Castanopsis forests.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Henrik Meilby</span>, <span>Morten Christensen</span>, <span>Sanjeeb Bhattarai</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 1, 2005
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publications/schima-castanopsis/" >
+      <img src="/publications/schima-castanopsis/featured_hua5733e8a8ec3e0e5b8699ede323f8463_145007_150x0_resize_q100_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   " style="background-image: linear-gradient(#CBE9F6, #E3E3E5);" >
+    <div class="container">
+      
+
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Let&rsquo;s Connect.</h1>
+    <p>I love learning, and sharing acquired knowledge. Feel free  to reach out using the following <strong>Contact Form</strong> to get in touch!</p>
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+      
+<div class="mb-3">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="2e1ac398-6cf2-464c-9fbd-9cfd23fcbb30">
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Your name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+
+    <ul class="fa-ul">
+
+      
+
+      
+
+      
+      
+        
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">Institute of Forestry (IOF), Tribhuvan University (TU), Hetauda, Makawanpur, Bagmati 44100</span>
+        </li>
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+        <span>Enter main building and take the stairs to Faculty Room on Floor 1</span>
+      </li>
+      
+
+      
+
+      
+
+      
+      
+
+    </ul>
+
+    
+    <div class="d-none">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="27.4205">
+      <input id="map-lng" value="85.0265">
+      <input id="map-dir" value="Institute of Forestry (IOF), Tribhuvan University (TU), Hetauda, Makawanpur, Bagmati 44100">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/css.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/bash.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/javascript.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/markdown.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.cbb2418f8e248a2e58f5a15a2abbfed0.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+
+    <p class="powered-by">
+       
+      Built with <i class="far fa-heart"></i> + <i class="fa fa-coffee"></i>, and a few <i class="fa fa-thumbs-up"></i> open source resources <i class="fa fa-hand-point-right"></i>
+      the R <a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package (development),
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> (design),
+      and <a href="https://www.netlify.com/" target ="_blank" rel="noopener">Netlify</a> (deployment).
+      <br>© Sanjeeb Bhattarai, 2026 
+      </p>
+    
+ 
+  </footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

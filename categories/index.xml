@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/categories/</link>
+      <atom:link href="https://sanjeeb.name.np/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Categories</title>
+      <link>https://sanjeeb.name.np/categories/</link>
+    </image>
+    
+  </channel>
+</rss>

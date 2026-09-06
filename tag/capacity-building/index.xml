@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capacity Building | Sanjeeb Bhattarai</title>
+    <link>https://sanjeeb.name.np/tag/capacity-building/</link>
+      <atom:link href="https://sanjeeb.name.np/tag/capacity-building/index.xml" rel="self" type="application/rss+xml" />
+    <description>Capacity Building</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Sun, 01 Jul 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sanjeeb.name.np/img/social.png</url>
+      <title>Capacity Building</title>
+      <link>https://sanjeeb.name.np/tag/capacity-building/</link>
+    </image>
+    
+    <item>
+      <title>Adressing the needs for forestry research and education in Nepal</title>
+      <link>https://sanjeeb.name.np/publications/iof-comform/</link>
+      <pubDate>Sun, 01 Jul 2007 00:00:00 +0000</pubDate>
+      <guid>https://sanjeeb.name.np/publications/iof-comform/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
